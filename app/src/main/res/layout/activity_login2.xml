@@ -75,7 +75,6 @@
         android:fontFamily="sans-serif"
         android:ems="10"
         android:hint="***********"
-        android:textColor="#EC5959"
         android:inputType="textPassword"
         android:password="true"
         android:textAlignment="center"
