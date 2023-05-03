@@ -11,9 +11,10 @@
 
     <ImageView
         android:id="@+id/Logo"
-        android:layout_width="100dp"
+        android:layout_width="300dp"
         android:layout_height="50dp"
         app:srcCompat="@drawable/untitled"
+        android:layout_marginBottom="15dp"
         android:contentDescription="@string/todo" />
 
     <TextView
@@ -21,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
-        android:layout_marginBottom="30sp"
+        android:layout_marginBottom="15sp"
         android:text="SIGN UP"
         android:textStyle="bold"
         android:textAlignment="center"
