@@ -56,7 +56,8 @@
         android:inputType="textEmailAddress"
         android:textAlignment="center"
         android:layout_marginBottom="40sp"
-        android:hint="example@email.com" />
+        android:hint="example@email.com"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/textView4"
@@ -76,9 +77,9 @@
         android:ems="10"
         android:hint="***********"
         android:inputType="textPassword"
-        android:password="true"
         android:textAlignment="center"
         android:layout_marginBottom="50sp"
+        android:autofillHints=""
         />
 
     <Button
