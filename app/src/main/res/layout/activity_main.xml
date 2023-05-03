@@ -30,7 +30,7 @@
         tools:ignore="SmallSp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Startbt"
         android:layout_width="300sp"
         android:layout_height="80dp"
         android:fontFamily="sans-serif"

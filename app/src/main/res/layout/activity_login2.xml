@@ -57,13 +57,16 @@
         android:layout_height="48dp"
         android:layout_marginBottom="40sp"
         android:autofillHints=""
+        android:backgroundTint="#7E7E7E"
+        android:drawableLeft="@android:drawable/sym_action_email"
+        android:drawableTint="@color/black"
         android:ems="10"
-        android:outlineSpotShadowColor="@color/black"
         android:hint="example@email.com"
-        android:textColorHint="@color/black"
         android:inputType="textEmailAddress"
+        android:outlineSpotShadowColor="@color/black"
         android:textAlignment="center"
         android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:visibility="visible" />
 
     <TextView
@@ -82,11 +85,15 @@
         android:layout_height="48dp"
         android:layout_marginBottom="50sp"
         android:autofillHints=""
+        android:backgroundTint="#7E7E7E"
+        android:drawableStart="@android:drawable/ic_lock_lock"
+        android:drawableTint="@color/black"
         android:ems="10"
         android:fontFamily="sans-serif"
-        android:hint="***********"
+        android:hint="**************"
         android:inputType="textPassword"
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:textColorHint="@color/black" />
 
     <Button
