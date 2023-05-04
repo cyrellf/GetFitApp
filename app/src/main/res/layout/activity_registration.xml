@@ -8,15 +8,25 @@
     android:gravity="center"
     android:background="@color/white"
     tools:context=".RegistrationActivity">
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
     <ImageView
         android:id="@+id/Logo"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
         app:srcCompat="@drawable/untitled"
-        android:layout_marginBottom="15dp"
         android:contentDescription="@string/todo" />
-
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
     <TextView
         android:id="@+id/SignupTV2"
         android:layout_width="match_parent"
@@ -75,7 +85,7 @@
         android:drawableLeft="@android:drawable/stat_sys_phone_call"
         android:drawableTint="@color/black"
         android:ems="10"
-        android:hint="09**-***-****"
+        android:hint="09##-###-####"
         android:inputType="textEmailAddress"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -132,10 +142,15 @@
         android:textColor="@color/black"
         android:inputType="textPassword"
         android:textAlignment="center"
-        android:layout_marginBottom="50sp"
         android:autofillHints=""
         />
-
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
     <Button
         android:id="@+id/SignupButton2"
         android:layout_width="300sp"
@@ -155,6 +170,6 @@
         android:text="ALREADY HAVE AN ACCOUNT?"
         android:textColor="@color/black"
         android:textStyle="bold" />
-
+    </LinearLayout>
 
 </LinearLayout>

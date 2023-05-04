@@ -8,7 +8,12 @@
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".LoginActivity">
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
     <ImageView
         android:id="@+id/Logo"
         android:layout_width="300dp"
@@ -20,7 +25,6 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="70sp"
         android:fontFamily="sans-serif"
         android:text="@string/you_re_stronger_than_you_think"
         android:textAlignment="center"
@@ -28,7 +32,13 @@
         android:textSize="10sp"
         android:textStyle="bold"
         tools:ignore="SmallSp" />
-
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
     <TextView
         android:id="@+id/SigninTV"
         android:layout_width="match_parent"
@@ -83,7 +93,6 @@
         android:id="@+id/PasswordET1"
         android:layout_width="300sp"
         android:layout_height="48dp"
-        android:layout_marginBottom="50sp"
         android:autofillHints=""
         android:backgroundTint="#7E7E7E"
         android:drawableStart="@android:drawable/ic_lock_lock"
@@ -95,7 +104,13 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textColorHint="#939393" />
-
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
     <Button
         android:id="@+id/SigninButton1"
         android:layout_width="300sp"
@@ -115,6 +130,6 @@
         android:text="CREATE AN ACCOUNT"
         android:textColor="@color/black"
         android:textStyle="bold" />
-
+    </LinearLayout>
 
 </LinearLayout>

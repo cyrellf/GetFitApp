@@ -6,9 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class ProgramsActivity extends AppCompatActivity {
         Button index,program;
+        ImageButton logout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,6 +20,7 @@ public class ProgramsActivity extends AppCompatActivity {
 
         index = (Button) findViewById(R.id.index2);
         program = (Button) findViewById(R.id.prog2);
+        logout = (ImageButton) findViewById(R.id.logoutbtn2);
 
         index.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,5 +36,11 @@ public class ProgramsActivity extends AppCompatActivity {
             }
         });
 
+        logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ProgramsActivity.this, LoginActivity.class));
+            }
+        });
     }
 }
