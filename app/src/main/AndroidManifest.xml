@@ -13,6 +13,12 @@
         android:theme="@style/Theme.AppCompat"
         tools:targetApi="31">
         <activity
+            android:name=".ProgramsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IndexActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="Get Fit"
@@ -23,16 +29,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity
             android:name=".RegistrationActivity"
-            android:exported="true"/>
-
+            android:exported="true" />
         <activity
             android:name=".LoginActivity"
-            android:exported="true"/>
-
+            android:exported="true" />
     </application>
 
 </manifest>
