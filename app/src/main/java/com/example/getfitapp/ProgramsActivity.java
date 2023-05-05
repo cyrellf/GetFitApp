@@ -1,6 +1,7 @@
 package com.example.getfitapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +12,7 @@ import android.widget.ImageButton;
 public class ProgramsActivity extends AppCompatActivity {
         Button index,program;
         ImageButton logout;
+        CardView beginner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +23,7 @@ public class ProgramsActivity extends AppCompatActivity {
         index = (Button) findViewById(R.id.index2);
         program = (Button) findViewById(R.id.prog2);
         logout = (ImageButton) findViewById(R.id.logoutbtn2);
+        beginner =(CardView) findViewById(R.id.BeginnerCV);
 
         index.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,6 +43,13 @@ public class ProgramsActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(ProgramsActivity.this, LoginActivity.class));
+            }
+        });
+
+        beginner.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ProgramsActivity.this, IndexActivity.class));
             }
         });
     }

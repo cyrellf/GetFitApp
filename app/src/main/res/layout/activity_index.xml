@@ -18,6 +18,7 @@
             android:layout_width="match_parent"
             android:layout_weight="1"
             android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
             app:srcCompat="@drawable/untitled"
             />
 
@@ -57,6 +58,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/black"
+            android:textSize="20sp"
+            android:letterSpacing=".2"
             android:text="HOME"
             android:textColor="@color/white" />
 
@@ -66,6 +69,8 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:background="@color/white"
+            android:textSize="20sp"
+            android:letterSpacing=".2"
             android:text="PROGRAMS"
             android:textColor="@color/black" />
     </LinearLayout>
@@ -76,7 +81,42 @@
         android:background="@color/black"
         android:visibility="visible" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:textSize="24sp"
+            android:paddingTop="20sp"
+            android:text="WELCOME, USER!" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageView2"
+            android:layout_width="300dp"
+            android:layout_height="186dp"
+            android:src="@drawable/jumping_jacks" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"></LinearLayout>
 
 
 </LinearLayout>
