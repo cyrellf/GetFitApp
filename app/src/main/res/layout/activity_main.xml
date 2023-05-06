@@ -19,12 +19,12 @@
         android:gravity="center"
         android:layout_marginBottom="20dp">
 
-    <ImageView
-        android:id="@+id/Logo"
-        android:layout_width="match_parent"
-        android:layout_height="90dp"
-        app:srcCompat="@drawable/untitled"
-        android:contentDescription="@string/todo" />
+        <ImageView
+            android:id="@+id/Logo"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/untitled" />
 
     <TextView
         android:id="@+id/textView2"
