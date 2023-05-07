@@ -18,21 +18,14 @@
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:layout_weight="1"
+            android:foreground="@drawable/begcv"
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:cardMaxElevation="12dp"
             app:cardPreventCornerOverlap="true"
             app:cardUseCompatPadding="true">
-            <TextView
-                android:id="@+id/Beginner"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="BEGINNER WORKOUTS"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="20sp" />
+
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
