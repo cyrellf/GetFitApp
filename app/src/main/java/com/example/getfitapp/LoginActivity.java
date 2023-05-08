@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
         Button login,register;
@@ -18,9 +19,9 @@ public class LoginActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         setContentView(R.layout.activity_login2);
         login = (Button) findViewById(R.id.SigninButton1);
+        register = (Button) findViewById(R.id.SignupButton1);
         email = (EditText) findViewById(R.id.EmailET1);
         password = (EditText) findViewById(R.id.PasswordET1);
-        register = (Button) findViewById(R.id.SignupButton1);
 
         register.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,7 +33,20 @@ public class LoginActivity extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(LoginActivity.this, IndexActivity.class));
+
+                String username = email.getText().toString();
+                String pass = password.getText().toString();
+
+                if(username.equals("admin") && pass.equals("123"))
+                {
+                    Toast.makeText(LoginActivity.this, "Login Success", Toast.LENGTH_SHORT).show();
+                    Intent intent= new Intent(getApplicationContext(),IndexActivity.class);
+                    startActivity(intent);
+                }else
+                {
+                    Toast.makeText(LoginActivity.this, "Invalid Credentials.", Toast.LENGTH_SHORT).show();
+                }
+
             }
         });
 
