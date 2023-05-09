@@ -13,6 +13,24 @@
         android:theme="@style/Theme.AppCompat"
         tools:targetApi="31">
         <activity
+            android:name=".AD3"
+            android:exported="true" />
+        <activity
+            android:name=".AD2"
+            android:exported="true" />
+        <activity
+            android:name=".AD1"
+            android:exported="true" />
+        <activity
+            android:name=".ID3"
+            android:exported="true" />
+        <activity
+            android:name=".ID2"
+            android:exported="true" />
+        <activity
+            android:name=".ID1"
+            android:exported="true" />
+        <activity
             android:name=".BD3"
             android:exported="true" />
         <activity
