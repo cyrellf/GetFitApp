@@ -14,7 +14,7 @@ import com.example.getfitapp.ui.notifications.NotificationsViewModel;
 
 public class BeginnerWorkoutsAct extends AppCompatActivity {
         Button back;
-        CardView d1;
+        CardView d1,d2,d3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +23,8 @@ public class BeginnerWorkoutsAct extends AppCompatActivity {
 
         back = (Button) findViewById(R.id.BBBtn);
         d1 = (CardView) findViewById(R.id.BWD1);
+        d2 = (CardView) findViewById(R.id.BWD2);
+        d3 = (CardView) findViewById(R.id.BWD3);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,6 +37,19 @@ public class BeginnerWorkoutsAct extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(BeginnerWorkoutsAct.this, BD1.class));
+            }
+        });
+        d2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(BeginnerWorkoutsAct.this, BD2.class));
+            }
+        });
+
+        d3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(BeginnerWorkoutsAct.this, BD3.class));
             }
         });
     }

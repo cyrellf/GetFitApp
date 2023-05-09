@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:gravity="center"
     style="?android:attr/borderlessButtonStyle"
-    tools:context=".BD1">
+    tools:context=".BD3">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/BBBtn2"
+                android:id="@+id/BBBtn4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:background="@color/white"
@@ -33,7 +33,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="BEGINNER | DAY 1"
+                android:text="BEGINNER | DAY 3"
                 android:fontFamily="sans-serif-black"
                 android:textColor="@color/black"
                 android:gravity="right|center"
@@ -49,7 +49,7 @@
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/BW1"
+                android:id="@+id/BW1D3"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 app:cardBackgroundColor="@color/white"
@@ -75,7 +75,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-black"
-                            android:text="5 JUMPING JACKS"
+                            android:text="7 JUMPING JACKS"
                             android:textAlignment="center"
                             android:textColor="@color/black"></TextView>
                     </LinearLayout>
@@ -87,7 +87,7 @@
                         android:orientation="horizontal">
 
                         <pl.droidsonroids.gif.GifImageView
-                            android:id="@+id/imageView2"
+                            android:id="@+id/IVD31"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -98,7 +98,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/BW2"
+                android:id="@+id/BW2D3"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 app:cardBackgroundColor="@color/white"
@@ -124,7 +124,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-black"
-                            android:text="5 BICYCLE CRUNCHES"
+                            android:text="7 BICYCLE CRUNCHES"
                             android:textAlignment="center"
                             android:textColor="@color/black"></TextView>
                     </LinearLayout>
@@ -136,7 +136,7 @@
                         android:orientation="horizontal">
 
                         <pl.droidsonroids.gif.GifImageView
-                            android:id="@+id/imageView3"
+                            android:id="@+id/IVD32"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -146,7 +146,7 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:id="@+id/BW3"
+                android:id="@+id/BW3D3"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 app:cardBackgroundColor="@color/white"
@@ -172,7 +172,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-black"
-                            android:text="10 SECOND PLANK"
+                            android:text="14 SECOND PLANK"
                             android:textAlignment="center"
                             android:textColor="@color/black"></TextView>
                     </LinearLayout>
@@ -184,7 +184,7 @@
                         android:orientation="horizontal">
 
                         <pl.droidsonroids.gif.GifImageView
-                            android:id="@+id/imageView4"
+                            android:id="@+id/IVD33"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -194,7 +194,7 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:id="@+id/BW4"
+                android:id="@+id/BW4D3"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 app:cardBackgroundColor="@color/white"
@@ -220,7 +220,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-black"
-                            android:text="4 ASSISTED PUSHUPS"
+                            android:text="6 ASSISTED PUSHUPS"
                             android:textAlignment="center"
                             android:textColor="@color/black"></TextView>
                     </LinearLayout>
@@ -232,7 +232,7 @@
                         android:orientation="horizontal">
 
                         <pl.droidsonroids.gif.GifImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/IVD34"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -242,7 +242,7 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:id="@+id/BW5"
+                android:id="@+id/BW5D3"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 app:cardBackgroundColor="@color/white"
@@ -268,7 +268,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-black"
-                            android:text="5 BODY WEIGHT SQUATS"
+                            android:text="7 BODY WEIGHT SQUATS"
                             android:textAlignment="center"
                             android:textColor="@color/black"></TextView>
                     </LinearLayout>
@@ -280,7 +280,7 @@
                         android:orientation="horizontal">
 
                         <pl.droidsonroids.gif.GifImageView
-                            android:id="@+id/imageView6"
+                            android:id="@+id/IVD35"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
