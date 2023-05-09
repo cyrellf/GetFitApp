@@ -15,7 +15,7 @@ public class IntermWorkoutsAct extends AppCompatActivity {
         getSupportActionBar().hide();
         setContentView(R.layout.activity_interm_workouts);
 
-        Button back = (Button) findViewById(R.id.BBBtn2);
+        Button back = (Button) findViewById(R.id.IBBtn1);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

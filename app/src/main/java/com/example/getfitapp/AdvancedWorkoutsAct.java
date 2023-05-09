@@ -17,7 +17,7 @@ public class AdvancedWorkoutsAct extends AppCompatActivity {
         getSupportActionBar().hide();
         setContentView(R.layout.activity_advanced_workouts);
 
-        Button back = (Button) findViewById(R.id.BBBtn3);
+        Button back = (Button) findViewById(R.id.ABBtn1);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

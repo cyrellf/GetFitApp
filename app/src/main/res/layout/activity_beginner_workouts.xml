@@ -47,87 +47,98 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="vertical">
+
         <androidx.cardview.widget.CardView
             android:id="@+id/BWD1"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="250dp"
             android:layout_weight="1"
+            android:foreground="@drawable/bd1"
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:cardMaxElevation="12dp"
             app:cardPreventCornerOverlap="true"
-            app:cardUseCompatPadding="true"/>
+            app:cardUseCompatPadding="true" />
 
 
         <androidx.cardview.widget.CardView
             android:id="@+id/BWD2"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="250dp"
             android:layout_weight="1"
+            android:foreground="@drawable/bd2"
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:cardMaxElevation="12dp"
             app:cardPreventCornerOverlap="true"
-            app:cardUseCompatPadding="true"/>
+            app:cardUseCompatPadding="true" />
+
         <androidx.cardview.widget.CardView
             android:id="@+id/BWD3"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="250dp"
             android:layout_weight="1"
+            android:foreground="@drawable/bd3"
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:cardMaxElevation="12dp"
             app:cardPreventCornerOverlap="true"
-            app:cardUseCompatPadding="true"/>
+            app:cardUseCompatPadding="true" />
+
         <androidx.cardview.widget.CardView
             android:id="@+id/BWD4"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="250dp"
             android:layout_weight="1"
+            android:foreground="@drawable/bd4"
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:cardMaxElevation="12dp"
             app:cardPreventCornerOverlap="true"
-            app:cardUseCompatPadding="true"/>
+            app:cardUseCompatPadding="true" />
+
         <androidx.cardview.widget.CardView
             android:id="@+id/BWD5"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="250dp"
             android:layout_weight="1"
+            android:foreground="@drawable/bd5"
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:cardMaxElevation="12dp"
             app:cardPreventCornerOverlap="true"
-            app:cardUseCompatPadding="true"/>
+            app:cardUseCompatPadding="true" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/BWD6"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="250dp"
             android:layout_weight="1"
+            android:foreground="@drawable/bd6"
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:cardMaxElevation="12dp"
             app:cardPreventCornerOverlap="true"
-            app:cardUseCompatPadding="true"/>
+            app:cardUseCompatPadding="true" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/BWD7"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="250dp"
             android:layout_weight="1"
+            android:foreground="@drawable/bd7"
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp"
             app:cardMaxElevation="12dp"
             app:cardPreventCornerOverlap="true"
-            app:cardUseCompatPadding="true"/>
+            app:cardUseCompatPadding="true" />
 
         <TextView
             android:layout_width="match_parent"

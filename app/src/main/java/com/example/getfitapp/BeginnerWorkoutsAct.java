@@ -1,6 +1,7 @@
 package com.example.getfitapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import android.content.Intent;
@@ -13,6 +14,7 @@ import com.example.getfitapp.ui.notifications.NotificationsViewModel;
 
 public class BeginnerWorkoutsAct extends AppCompatActivity {
         Button back;
+        CardView d1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +22,7 @@ public class BeginnerWorkoutsAct extends AppCompatActivity {
         setContentView(R.layout.activity_beginner_workouts);
 
         back = (Button) findViewById(R.id.BBBtn);
+        d1 = (CardView) findViewById(R.id.BWD1);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,5 +31,11 @@ public class BeginnerWorkoutsAct extends AppCompatActivity {
             }
         });
 
+        d1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(BeginnerWorkoutsAct.this, BD1.class));
+            }
+        });
     }
 }

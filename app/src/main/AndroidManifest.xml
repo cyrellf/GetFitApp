@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AppCompat"
         tools:targetApi="31">
         <activity
+            android:name=".BD1"
+            android:exported="true" />
+        <activity
             android:name=".AdvancedWorkoutsAct"
             android:exported="true" />
         <activity
