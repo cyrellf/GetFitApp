@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class RegistrationActivity extends AppCompatActivity {
    Button login, register;
@@ -25,10 +26,21 @@ public class RegistrationActivity extends AppCompatActivity {
         rpass = (EditText) findViewById(R.id.RPasswordET2);
         register = (Button) findViewById(R.id.SignupButton2);
 
+        String remail = email.getText().toString();
+
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(RegistrationActivity.this, LoginActivity.class));
+            }
+        });
+
+        register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                    Toast.makeText(RegistrationActivity.this, "Account Registered Successfully!", Toast.LENGTH_SHORT).show();
+                    Intent intent= new Intent(getApplicationContext(),LoginActivity.class);
+                    startActivity(intent);
             }
         });
     }
